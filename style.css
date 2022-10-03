@@ -1,0 +1,55 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0 50px;
+}
+
+.button.is-primary {
+  background-color: #072ac8;
+}
+
+.ch1 {
+  font-size: 60px;
+}
+
+.navbar {
+  height: 122px;
+}
+
+.navbar-start {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.section-hero {
+  margin-top: 50px;
+  height: 500px;
+  display: flex;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.button-hero {
+  width: 100%;
+}
+
+#img-1 {
+  position: absolute;
+  width: 190px;
+}
+
+#img-2 {
+position: relative;
+  width: 550px;
+}
+#img-3 {
+  position: relative;
+  width: 190px;
+}
