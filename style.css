@@ -9,12 +9,15 @@ body {
 .container {
   padding: 0 4rem;
 }
+.navbar{
+  background-color: transparent;
+}
 
 .button.is-primary {
   background-color: #072ac8;
 }
 
-.ch1 {
+h1, .ch1 {
   font-size: 60px;
   line-height: 1.2;
   font-weight: bold;
