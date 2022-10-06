@@ -18,18 +18,18 @@
     <div class="container">
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="home.html">
+          <a class="navbar-item" href="index.html">
             <img src="./images/circle.svg">
           </a>
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <a id="burger"role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
         </div>
-        <div class="navbar-menu">
+        <div class="navbar-menu" id="nav-links">
           <div class="navbar-start">
-            <a class="navbar-item">
+            <a class="navbar-item" href="index.html">
               Home
             </a>
             <a class="navbar-item">
@@ -42,7 +42,7 @@
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
-                <a class="button is-primary">
+                <a class="button is-primary" href="contact.html">
                   Contact Us
                 </a>
               </div>
@@ -53,23 +53,23 @@
       <section class="contact-section">
 <h1>Contact Us</h1>
 <form class="contact-form" action="">
-    <p>
+    <p class="contact-input">
         <label for="">Full Name</label>
         <input type="text" placeholder="Enter your full name" required>
     </p>
-    <p>
+    <p class="email-input">
         <label for="">Email</label>
         <input type="email" placeholder="Enter your email" required>
     </p>
-    <p>
+    <p class="phone-input">
         <label for="">Phone</label>
         <input type="tel" placeholder="Enter your phone" required>
     </p>
-    <p>
+    <p class="contact-input">
         <label for="">Message</label>
         <textarea type="text" placeholder="Write your message here..." required></textarea>
     </p>
-    <input class="button is-primary" type="submit" value="Submit">
+    <input class="button is-primary contact-input" type="submit" value="Submit">
 </form>
       </section>
         <footer>
@@ -90,6 +90,6 @@
         </footer>
       </section>
     </div>
-    <script src=""></script>
+    <script src="./index.js"></script>
   </body>
 </html>
