@@ -11,11 +11,12 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
-    />
+    /> 
     <title>Home | Mid-term Project</title>
   </head>
   <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="home.html">
             <img src="./images/circle.svg">
@@ -26,7 +27,7 @@
             <span aria-hidden="true"></span>
           </a>
         </div>
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-menu">
           <div class="navbar-start">
             <a class="navbar-item">
               Home
@@ -49,8 +50,8 @@
           </div>
         </div>
       </nav>
-      <section class="section-hero content">
-        <div class="hero-text">
+      <section class="section-hero content columns">
+        <div class="hero-text column is-12-mobile is-6-desktop">
             <p class="ch1">Empower Your Business With Stunning Design!</p>
             <p>Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
             <div class="button-hero">
@@ -62,12 +63,183 @@
                 </a>
             </div>
         </div>
-        <div class="hero-images">
+        <div class="hero-images column is-12-mobile is-6-desktop">
             <img id="img-1" src="./images/card-1.png" alt="">
             <img id="img-2" src="./images/hero-image.png" alt="">
             <img id="img-3" src="./images/card-2.png" alt="">
         </div>
       </section>
+      <section class="section-logos">
+        <img src="./images/airbnb-logo.svg" alt="">
+        <img src="./images/google-logo.svg" alt="">
+        <img src="./images/microsoft-logo.svg" alt="">
+        <img src="./images/fedex-logo.svg" alt="">
+        <img src="./images/amazon-logo.svg" alt="">
+      </section>
+      <section class="section-projects">
+        <h3>Recent Projects</h3>
+        <div class="columns cards-container">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="./images/1.jpeg" alt="Project 1">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Simplify</p>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris.
+                <br>
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="./images/2.jpeg" alt="Project 2">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Simplify</p>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris.
+                <br>
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="./images/3.jpeg" alt="Project 3">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Simplify</p>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris.
+                <br>
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section >
+      <section class="section-testimonials">
+        <h3>Hear What Our Clients Have to Say</h3>
+        <div class="review">"Circle helped us through every stage of our startup. We really enjoyed working with you."</div>
+        <div class="review-profile">
+          <div class="img-profile"></div>
+          <div>
+            <div class="name-profile">Kristin Watson</div>
+            <div class="web-profile">Booking.com</div>
+          </div>
+        </div>
+        <div class="emoji position-1"></div>
+        <div class="emoji position-2"></div>
+        <div class="emoji position-3"></div>
+        <div class="emoji position-4"></div>
+      </section>
+      <section class="services">
+        <h3>Our Services</h3>
+        <div class="columns cards-container">
+          <div class="card card-services">
+            <div class="services-image">
+                <img src="./images/1.svg" alt="Service 1">
+            </div>
+            <div class="card-content">
+              <div class="media"> 
+                <div class="media-content">
+                  <p class="title is-4">Simplify</p>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris.
+                <br>
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card card-services">
+            <div class="services-image">
+                <img src="./images/2.svg" alt="Service 2">
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Simplify</p>
+                </div>
+              </div>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris.
+                <br>
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card card-services">
+            <div class="services-image">
+              <img src="./images/3.svg" alt="">
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Application Development</p>
+                </div>
+              </div>
+              <div class="content">
+                We develop high-quality mobile and web applications using the latest technology stack.
+                <br>
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-newsletter">
+        <h3>Do you have any questions?</h3>
+        <div class="newsletter-text">Let us help you!</div>
+        <form action="">
+          <input class="input-email" type="text" placeholder="Enter your email">
+          <input class="button-submit" type="submit" value="Suscribe">
+        </form>
+      </section>
+        <footer>
+          <div class="footer-content">
+            <div class="footer-left-content">
+              <img src="./images/circle.svg" alt="">
+              <div>2972 Westheimer Rd. Santa Ana, Illinois 85486</div>
+            </div>
+            <div class="footer-menu">
+              <a href="">Team</a>
+              <a href="">Services</a>
+              <a href="">About Us</a>
+              <a href="">Press</a>
+              <a href="">Projects</a>
+              <a href="">Privacy Policy</a>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
     <script src=""></script>
   </body>
 </html>

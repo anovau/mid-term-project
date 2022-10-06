@@ -2,7 +2,12 @@
 
 * {
   font-family: "Roboto", sans-serif;
-  margin: 0 50px;
+}
+body {
+  background-color: #f1f4fb;
+}
+.container {
+  padding: 0 4rem;
 }
 
 .button.is-primary {
@@ -11,6 +16,12 @@
 
 .ch1 {
   font-size: 60px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+h3 {
+  font-size: 40px;
+  font-weight: 700;
 }
 
 .navbar {
@@ -24,15 +35,13 @@
 }
 
 .section-hero {
-  margin-top: 50px;
-  height: 500px;
-  display: flex;
+  margin: 100px 2rem 0;
+  min-height: 500px;
 }
 
 .hero-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 100%;
 }
 
@@ -40,16 +49,207 @@
   width: 100%;
 }
 
+.hero-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 400px;
+}
+
 #img-1 {
   position: absolute;
-  width: 190px;
+  width: 250px;
 }
 
 #img-2 {
-position: relative;
-  width: 550px;
+  position: absolute;
+  width: 500px;
 }
 #img-3 {
+  position: absolute;
+  width: 250px;
+}
+.section-logos {
+  margin-top: 100px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-projects {
+  margin: 200px 50px;
+}
+.cards-container {
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.section-testimonials {
+  margin-top: 100px;
+  background-color: #292e47;
+  background-image: url(./images/orbit.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 550px;
+  padding: 60px 20px 50px 20px;
   position: relative;
-  width: 190px;
+
+}
+.section-testimonials h3 {
+  color: #ecf7ff;
+  text-align: center;
+  margin: 20px 0 10px 0;
+  
+}
+.review {
+  color: #ffc600;
+  font-size: 24px;
+  font-weight: 500;
+  max-width: 560px;
+  text-align: center;
+  margin: auto;
+}
+.review-profile {
+  display: flex;
+  justify-content: center;
+}
+
+.img-profile {
+  background-image: url(./images/profile.png);
+  background-size: cover;
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.name-profile {
+  color: #a2d6f9;
+  font-size: 17px;
+}
+.web-profile {
+  color: #ecf7ff;
+  font-size: 13px;
+}
+.emoji {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+
+.position-1 {
+  background-image: url(./images/memoji-1.png);
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.position-2 {
+  background-image: url(./images/memoji-2.png);
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  margin-bottom: 5%;
+  margin-right: 10%;
+  
+}
+.position-3 {
+  background-image: url(./images/memoji-3.png);
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 0%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  
+}
+.position-4 {
+  background-image: url(./images/memoji-4.png);
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  margin-top: 5%;
+  margin-right: 10%;
+}
+.services {
+  margin-top: 200px;
+  padding: 0 50px;
+}
+.services-image {
+  background-color: #ECF7FF;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 10px 40px;
+
+}
+.services-image img {
+  width: 50px;
+  height: 50px;
+}
+
+.section-newsletter {
+  margin-top: 100px;
+  background-color: #FFC500;
+  color: #292E47;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  align-items: center;  
+  text-align: center;
+}
+
+form {
+  display: flex;
+  margin: 40px auto 0;
+}
+.input-email {
+  width: 400px;
+  border: none;
+}
+.button-submit {
+ background-color: #082AC8;
+ color: white;
+ padding: 15px 35px;
+ margin-left: 10px;
+ border: none;
+}
+footer {
+  margin-top: 100px;
+  padding: 30px 0;
+}
+.footer-content {
+  display:flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.footer-left-content {
+  max-width: 250px;
+}
+
+.footer-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0;
+  }
 }
